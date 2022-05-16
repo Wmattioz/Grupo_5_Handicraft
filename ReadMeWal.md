@@ -1,3 +1,0 @@
-Hola! Mi nombre es Walter y hago equipo con Carolina y Shirel en el grupo 5.
-
-Iniciamos el Proyecto Integrador de Digital House de esta manera...
