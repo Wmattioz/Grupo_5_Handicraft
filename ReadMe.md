@@ -17,10 +17,9 @@ Publico destinado:
 Publico interesado en el arte y artesanias, que les gusta tener cosas delicadas y finas en la casa.
 
 Links de inspiracion:
-1-https://ofelia.com.ar/arte-y-manualidades
-2-https://mercadowayuu.com/tienda/
-3-https://www.etsy.com/c/home-and-living?ref=catnav-891
-4-https://artisansmarketplacect.com/
-5-https://encenter.org/visit-us/artisan-marketplace/
-6-https://www.artisanmarket.ie/artisan-directory/
-7-https://www.localartisanmarket.com/
+1-https://ofelitisanmarket.ie/artisan-directory/ La gran variedad de categorias
+2-https://mercadowayuu.com/tienda/  Nos gusto su diseño y colores
+3-https://www.etsy.com/c/home-and-living?ref=catnav-891 La cantidad de contenido
+4-https://artisansmarketplacect.com/ El diseño y las distintas tipografias
+5-https://encenter.org/visit-us/artisan-marketplace/ Nos gusto la calidad de las imagenes y los productos originales
+6-https://www.localartisanmarket.com/
