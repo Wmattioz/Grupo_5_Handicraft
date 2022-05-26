@@ -23,3 +23,9 @@ Links de inspiracion:
 4-https://artisansmarketplacect.com/ El diseño y las distintas tipografias
 5-https://encenter.org/visit-us/artisan-marketplace/ Nos gusto la calidad de las imagenes y los productos originales
 6-https://www.localartisanmarket.com/
+
+Link a Wireframes en FIGMA:
+Repositorio: https://www.figma.com/files/team/1106731600645791943/grupo_5_DH?fuid=1108830348014633320 / Grupo 5
+1-https://www.figma.com/file/tyw5wyY4DLqL6BijkDpAiu/%2Fhome / home
+2-https://www.figma.com/file/6RxquF0Mi6KwuiicHHhgiH/SignUp%2FLogin?node-id=0%3A1 / signUp-Login
+3-https://www.figma.com/file/ViI9vj9TC50W1D5ijqmKCB/%2FDetalle-de-Producto-%2B-%2FLista-de-Compras- / Lista de compras - Detalle Producto
