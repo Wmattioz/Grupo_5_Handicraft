@@ -1,31 +1,7 @@
+## Emprendimiento Artesnías de Vidrio - HandiCraft
 
+1. ["Temática."](https://)
+2. ["Equipo."](https://)
+3. ["Referencias."](https://)
+4. ["Wireframes."](https://www.figma.com/file/ViI9vj9TC50W1D5ijqmKCB/%2FSitio?node-id=47%3A118)
 
-Descpripcion del producto: 
-Nuestros productos seran artesanias de vidrio, tendremos distintos tipos de vajilla, adornos para la casa y muchas cosas mas! 
-Equipo 5:
-
-Hola! Me llamo Caro Shlian, el año pasado termine el secundario, tengo 18 años y trabajo de maestra jardinera, en el resto del dia dedico mi tiempo al estudio de programacion.
-
-Mi nombre es Shirel y tengo 18 años, por la mañana trabajo de administradora en una empresa familiar, y por las tardes me dedico al estudio y nuestro querido proyecto integrador.
-
-Hola! Me llamo Walter Mattioz, tengo 31 años y me dedico al mundo de la logística.
-Espero poder incorporar lo aprendido en este curso a mi trabajo actual para potenciar los flujos de información necesarios en una cadena de suministro.
-
-Mi nombre es Fernando Grandoli, tengo 34 años, trabaje como soporte de servidores y aplicaciones, ahora me desempeño como programador hace 6 meses. Espero poder utilizar los conocimientos adquiridos para dedicarme al desarrollo 100%.
-
-Publico destinado: 
-Publico interesado en el arte y artesanias, que les gusta tener cosas delicadas y finas en la casa.
-
-Links de inspiracion:
-1-https://ofelitisanmarket.ie/artisan-directory/ La gran variedad de categorias
-2-https://mercadowayuu.com/tienda/  Nos gusto su diseño y colores
-3-https://www.etsy.com/c/home-and-living?ref=catnav-891 La cantidad de contenido
-4-https://artisansmarketplacect.com/ El diseño y las distintas tipografias
-5-https://encenter.org/visit-us/artisan-marketplace/ Nos gusto la calidad de las imagenes y los productos originales
-6-https://www.localartisanmarket.com/
-
-Link a Wireframes en FIGMA:
-Repositorio Grupo 5: https://www.figma.com/files/team/1106731600645791943/grupo_5_DH?fuid=1108830348014633320 //
-Home: https://www.figma.com/file/tyw5wyY4DLqL6BijkDpAiu/%2Fhome //
-signUp-Login: https://www.figma.com/file/6RxquF0Mi6KwuiicHHhgiH/SignUp%2FLogin?node-id=0%3A1 //
-Lista de compras - Detalle Producto: https://www.figma.com/file/ViI9vj9TC50W1D5ijqmKCB/%2FDetalle-de-Producto-%2B-%2FLista-de-Compras-
