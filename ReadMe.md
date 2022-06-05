@@ -1,4 +1,4 @@
-## Emprendimiento Artesnías de Vidrio - HandiCraft
+## Emprendimiento Artesanías de Vidrio - HandiCraft
 
 1. [Temática.](https://github.com/Wmattioz/Grupo_5_Handicraft/blob/main/Dise%C3%B1o/Dise%C3%B1o.md)
 2. [Equipo.](https://github.com/Wmattioz/Grupo_5_Handicraft/blob/main/Documentos/Equipo.md)
