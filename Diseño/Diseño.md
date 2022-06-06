@@ -1,10 +1,15 @@
 ## Diseño Tipográfico y Colores.
 
 + Colores seleccionados:
-    >  Rojo para el fondo...
-    >  Azul para el footer...
-    >  Amarillo para....
+    + 8da38e 
+    + 62909a
+    + 87a6ab
+    + 7cc6b0
+    + 79a49a
+    
 
 + Tipografías:
-    >  Para el Logo y los títulos/subtítulos usamos...
-    >  Para los párrafos y links...
+    +
+    +
+    +
+    
