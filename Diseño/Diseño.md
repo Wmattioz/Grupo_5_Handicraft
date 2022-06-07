@@ -9,7 +9,5 @@
     
 
 + Tipografías:
-    +
-    +
-    +
-    
+    + Logo y Titulares: Lucida Sans (Italic).
+    + Párrafos y Links: Calibri.
