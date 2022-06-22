@@ -20,6 +20,6 @@ Planificar el trabajo de equipo por Whatsapp y realizar el trabajo de este proye
 Procastinar el trabajo y creer que vamos a llegar a las entregas trabajando muy cerca del dead line.
 
 
-+ Reflexión hasta el 2do Sprint:
+## Reflexión hasta el 2do Sprint:
 Para ponernos al día con todo el trabajo a realizar decidimos aumentar la cantidad de encuentros de trabajo en equipo y trabajar en el Proyecto en los tiempos libres de la semana. 
 Los cierto es que nos retrasamos mucho con este proyecto debido a que estabamos avanzando con los ejercicios de Playground al tiempo que incorporabamos un gran volumen de conceptos para el maquetado HTML y el agregado de estilos CSS sumado a la entrega del trabajo individual Mercadoliebre. No debe ser tomado como excusa esto, si no como el fundamento de lo que nos sucedió individualmente a cada uno de nosotros y le quitó el merecido tiempo al Sprint 2.
