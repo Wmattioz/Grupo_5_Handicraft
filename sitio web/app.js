@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const routeMain = require('./routes/main.js');
+
 const path = require('path');
 
 app.listen(process.env.PORT || 8443, () => console.log('Server runnning'));
@@ -23,6 +23,6 @@ app.get('/login.html', (req, res) => {
   res.sendFile(path.join(__dirname, '/views/login.html'));
 });
 
-app.get('/login.html', (req, res) => {
+app.get('/producto.html', (req, res) => {
     res.sendFile(path.join(__dirname, '/views/producto.html'));
   });
