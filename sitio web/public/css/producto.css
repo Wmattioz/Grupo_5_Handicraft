@@ -1,0 +1,9 @@
+.estrellas{
+ color: rgb(156, 156, 156);
+}
+.producto{
+    width: 50%;
+    display:flex;
+   justify-content: flex-start;
+   flex-wrap: wrap;
+}
