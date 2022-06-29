@@ -10,7 +10,7 @@ const mainRoute =require('./routes/mainRoute')
 const path = require('path');
 
 
-app.listen(process.env.PORT || 8443, () => console.log('Server runnning'));
+app.listen(process.env.PORT || 3000, () => console.log('Server runnning'));
 
 
 
@@ -36,6 +36,9 @@ app.get('/login.html', (req, res) => {
 app.get('/producto.html', (req, res) => {
     res.sendFile(path.join(__dirname, '/views/producto.html'));
   });
+
+
+
 
 
   /* Nuevo código código MVC. - creo estructura de carpetas y controlador + archivo rutas

@@ -1,6 +1,12 @@
-.estrellas{
+.estrella{
  color: rgb(156, 156, 156);
+ font-size: 1.2em;
+    transition-property: color;
+    transition-duration: 00.5ms;
 }
+.estrella:hover{
+    color:gold ;
+  }
 .producto{
     width: 50%;
     display:flex;
