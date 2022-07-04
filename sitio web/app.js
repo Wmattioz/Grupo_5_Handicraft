@@ -24,15 +24,23 @@ app.get('/', (req, res) => {
   res.render('home');
 });
 
-app.get('/', (req, res) => {
+app.get('/home.ejs', (req, res) => {
+  res.render('home');
+});
+
+app.get('/cart.ejs', (req, res) => {
   res.render('cart');
 });
 
-app.get('/', (req, res) => {
+app.get('/login.ejs', (req, res) => {
   res.render('login');
 });
 
-app.get('/', (req, res) => {
+app.get('/register.ejs', (req, res) => {
+  res.render('register');
+});
+
+app.get('/producto.ejs', (req, res) => {
   res.render('producto');
 });
 
