@@ -18,23 +18,23 @@ app.listen(process.env.PORT || 3000, () => console.log('Server runnning'));
 app.use('/public', express.static(__dirname + '/public'));
 
 app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname, '/views/home.html'));
+  res.sendFile(path.join(__dirname, '/views/home.ejs'));
 });
 
 app.get('/home.html', (req, res) => {
-  res.sendFile(path.join(__dirname, '/views/home.html'));
+  res.sendFile(path.join(__dirname, '/views/home.ejs'));
 });
 
 app.get('/register.html', (req, res) => {
-  res.sendFile(path.join(__dirname, '/views/register.html'));
+  res.sendFile(path.join(__dirname, '/views/register.ejs'));
 });
 
 app.get('/login.html', (req, res) => {
-  res.sendFile(path.join(__dirname, '/views/login.html'));
+  res.sendFile(path.join(__dirname, '/views/login.htmlejs'));
 });
 
 app.get('/producto.html', (req, res) => {
-    res.sendFile(path.join(__dirname, '/views/producto.html'));
+    res.sendFile(path.join(__dirname, '/views/producto.ejs'));
   });
 
   app.get('/cart.html', (req, res) => {
