@@ -8,7 +8,7 @@ app.set('view engine', 'ejs');
 const mainRoute =require('./routes/mainRoute')
 
 
-//si optimizamos el código a MVC este const path ya no sirve //
+
 const path = require('path');
 
 
@@ -36,9 +36,7 @@ app.get('/', (req, res) => {
   res.render('producto');
 });
 
-app.get('/', (req, res) => {
-  res.render('register');
-});
+
 
   /* Nuevo código código MVC. - creo estructura de carpetas y controlador + archivo rutas
 
@@ -51,6 +49,6 @@ app.use('/', mainRoute);
 app.use('/login', mainRoute);
 app.use('/register', mainRoute);
 app.use('/producto', mainRoute);
-
+app.use('/cart', mainRoute);
 
   */
