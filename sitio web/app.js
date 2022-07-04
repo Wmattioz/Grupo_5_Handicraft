@@ -6,7 +6,7 @@ const app = express();
 const mainRoute =require('./routes/mainRoute')
 
 
-//si optimizamos el código a MVC este const path ya no sirve //
+
 const path = require('path');
 
 
@@ -37,6 +37,11 @@ app.get('/producto.html', (req, res) => {
     res.sendFile(path.join(__dirname, '/views/producto.html'));
   });
 
+  app.get('/cart.html', (req, res) => {
+    res.sendFile(path.join(__dirname, '/views/cart.html'));
+  });
+
+
 
 
 
@@ -52,6 +57,6 @@ app.use('/', mainRoute);
 app.use('/login', mainRoute);
 app.use('/register', mainRoute);
 app.use('/producto', mainRoute);
-
+app.use('/cart', mainRoute);
 
   */

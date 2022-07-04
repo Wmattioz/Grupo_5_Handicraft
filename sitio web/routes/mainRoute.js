@@ -11,4 +11,6 @@ router.get('/login', mainController.mostrarLogin);
 
 router.get('/login', mainController.mostrarProducto);
 
+router.get('/cart', mainController.mostrarCart);
+
 module.exports = router;

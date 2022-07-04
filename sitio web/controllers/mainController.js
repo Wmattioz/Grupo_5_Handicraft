@@ -15,6 +15,10 @@ const mainController = {
 
     mostrarProducto: (req,res) =>{
         return res.render('producto')
+    },
+
+    mostrarCart: (req,res) =>{
+        return res.render('cart')
     }
 
     
