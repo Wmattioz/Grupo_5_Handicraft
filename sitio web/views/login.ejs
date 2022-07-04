@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- include ('./partials/head') %>
+  <body>
+  <div class="container">
+    <%- include ('./partials/header') %>
+    <main>
+         <div class="banner">
+        <img src="public/images/banner.jpg" />
+      </div>
+      <form action="/register" method="POST">
+        <div class="user">
+          <label for="user">Nombre de usuario</label>
+          <input type="text" name="user" id="user" />
+        </div>
+        <div class="passwords">
+          <label for="password">Ingresar contraseña</label>
+          <input type="password" name="password" value="" />
+        </div>
+        <div class="buttons">
+          <button type="submit" value="enviar">Enviar</button>
+          <div class="show-btn-back">
+            <a class="nav-back" href="home.html">Volver</a>
+          </div>
+        </div>
+      </form>
+    </main>
+      <%- include ('./partials/footer') %>
+    </div>
+  </body>
+  </html>
