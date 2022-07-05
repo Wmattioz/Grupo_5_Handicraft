@@ -19,7 +19,12 @@ const mainController = {
 
     mostrarCart: (req,res) =>{
         return res.render('cart')
+    },
+
+    mostrarConstruccion: (req,res) =>{
+        return res.render('enConstruccion')
     }
+
 
     
 }

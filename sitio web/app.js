@@ -10,29 +10,11 @@ app.listen(process.env.PORT || 3000, () => console.log('Server runnning'));
 
 
 
-app.get('/', (req, res) => {
-  res.render('home');
-});
-
-app.get('/home.ejs', (req, res) => {
-  res.render('home');
-});
-
-app.get('/cart.ejs', (req, res) => {
-  res.render('cart');
-});
-
-app.get('/login.ejs', (req, res) => {
-  res.render('login');
-});
-
-app.get('/register.ejs', (req, res) => {
-  res.render('register');
-});
-
-app.get('/producto.ejs', (req, res) => {
-  res.render('producto');
-});
+app.use('/', mainRoute);
+app.use('/login', mainRoute);
+app.use('/register', mainRoute);
+app.use('/producto', mainRoute);
+app.use('/cart', mainRoute);
 
 
 
