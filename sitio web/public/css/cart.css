@@ -138,6 +138,7 @@
     margin-top:1rem;
     margin-right: 2rem;
     margin-left: 2rem;
+    margin-bottom:1rem;
     background-color: whitesmoke;
     height: fit-content;
     flex-direction: column;
@@ -165,4 +166,33 @@
     margin: 8px;
     align-items:center
     
+}
+
+.botonesFinales{
+    margin-bottom: 1rem;
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    align-self: center;
+    height: 100%;
+    align-items: center;
+    gap:5rem;
+    
+}
+
+.btnCancel{
+    background-color:tomato;
+    font-size: 1rem;
+    padding:6px;
+    border-radius:1rem;
+    font-weight: bold;
+    
+}
+
+.btnFinish{
+    background-color: rgb(58, 182, 58);
+    font-size: 1rem;
+    padding:6px;
+    border-radius:1rem;
+    font-weight: bold;
 }
