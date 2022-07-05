@@ -1,22 +1,15 @@
 const express = require('express');
-
 const app = express();
 
+
 app.set('view engine', 'ejs');
-
-// esta porción de código hay que poner para traer el modulo de ruta y asi vincular controlador// 
 const mainRoute =require('./routes/mainRoute')
-
-
-
+app.use('/public', express.static(__dirname + '/public'));
 const path = require('path');
-
-
 app.listen(process.env.PORT || 3000, () => console.log('Server runnning'));
 
 
 
-////mejorar este código con propuesta debajo///
 app.use('/public', express.static(__dirname + '/public'));
 
 
