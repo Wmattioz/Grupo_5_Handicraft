@@ -5,16 +5,44 @@
   <body>
     <div id="container">
       <%- include ('./partials/header') %>
-      <main class="cart">
-        <section class="banner">
-            <img src="public/images/Banner.jpg" />   
-        </section>
-        <section class="firstSectionCart">
-            Cart
-        </section>
-        <section class="secondSectionCart">
-            Resumen
-        </section>
+      <main >
+        
+            <section class="banner">
+                <img src="public/images/Banner.jpg" />   
+            </section>
+
+            <h2 class="tituloCart">Carrito de Compras</h2>
+
+         <div class="cart">
+            <section class="firstSectionCart">
+                
+                <article>
+                    
+                    <img class="imagenesCart" src="public/images/Artesania-de-vidrio-06.jpeg.jpg" />
+                    <div class="contenidoProduct">
+                        <h3 class="tituloProducto">Carruaje navideño</h3>
+                        <p>Breve Descripción de Producto</p>
+                    </div>
+                </article>
+                <article>
+                    
+                    <img class="imagenesCart" src= "public/images/H-D-cristal-azul-flor-Rosa-hecha-a-mano-con-hermoso-canasto-creativo-regalo-de-recuerdo.jpg_Q90.jpg_.webp" />
+                    Canasto de Flores Azules
+                </article>
+                <article>
+                    <img class="imagenesCart" src="public/images/H5204c57802c84d74b06b98bcf45bfb5ag.png" />
+                    Alzada con pie en forma de flor
+                </article>
+                <article>
+                    <img class="imagenesCart" src="public/images/D_NQ_NP_934178-MLA49555529313_042022-O.webp" />
+                    Frutera tallada
+                </article>
+                
+            </section>
+            <section class="secondSectionCart">
+                Resumen
+            </section>
+         </div>
       </main>
       <%- include ('./partials/footer') %>
     </div>
