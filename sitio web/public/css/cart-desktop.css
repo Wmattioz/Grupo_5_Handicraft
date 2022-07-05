@@ -184,18 +184,18 @@
     
     .btnCancel{
         background-color:tomato;
-        font-size: 1.5rem;
+        font-size: 1rem;
         padding:6px;
-        border-radius:1rem;
+        border-radius:1.5rem;
         font-weight: bold;
         
     }
     
     .btnFinish{
         background-color: rgb(58, 182, 58);
-        font-size: 1.5rem;
+        font-size: 1rem;
         padding:6px;
-        border-radius:1rem;
+        border-radius:1.5rem;
         font-weight: bold;
     }
 
