@@ -1,16 +1,13 @@
 const express = require('express');
 const app = express();
-
+const mainRoute =require('./routes/mainRoute')
+const path = require('path');
 
 app.set('view engine', 'ejs');
-const mainRoute =require('./routes/mainRoute')
 app.use('/public', express.static(__dirname + '/public'));
-const path = require('path');
 app.listen(process.env.PORT || 3000, () => console.log('Server runnning'));
 
 
-
-app.use('/public', express.static(__dirname + '/public'));
 
 
 app.get('/', (req, res) => {

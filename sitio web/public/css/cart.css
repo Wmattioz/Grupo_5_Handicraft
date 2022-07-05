@@ -208,9 +208,24 @@
         font-weight: bold;
     }
 
+    .btnFinish:hover {
+        color: whitesmoke;
+        cursor: pointer;
+        font-weight: bold;
+      }
 
+    .btnCancel:hover {
+        color: whitesmoke;
+        cursor: pointer;
+        font-weight: bold;
+      }
 
-   
+    .btnsCart:hover{
+        color: red;
+        cursor: pointer;
+        font-weight: bold;
+        
+    }
 
 
 }
