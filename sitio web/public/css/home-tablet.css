@@ -1,4 +1,4 @@
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 761px) {
   * {
     margin: 0px;
     padding: 0px;
@@ -16,20 +16,15 @@
     margin: auto;
   }
 
-  .container {
-    width: 100%;
-  }
-
   .section-prd-top {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
   }
 
   .section-prd-bottom {
     display: flex;
-    width: 100%;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
   }
 
@@ -46,7 +41,7 @@
     align-items: center;
     justify-content: center;
     background-color: whitesmoke;
-    margin: 30px 30px;
+    margin: 10px 10px;
     z-index: 1;
     transition: transform 0.5s;
   }
@@ -56,27 +51,6 @@
     transform: scale(1.05, 1.05);
     box-shadow: 0px 0px 10px rgb(100, 100, 100);
   }
-
-  .producto:hover .description {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    text-align: right;
-    position: absolute;
-    bottom: 0px;
-    padding: 10px 10px;
-    background-color: whitesmoke;
-    transform: scale(1, 1);
-  }
-  /*   .producto-big {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    width: 50%;
-    height: 350px;
-    background-color: whitesmoke;
-    margin: 15px 15px;
-  } */
 
   .image {
     margin: 10px 10px;
@@ -88,8 +62,14 @@
   }
 
   .description {
-    display: none;
-    transition: transform 1s;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: right;
+    position: absolute;
+    bottom: 0px;
+    padding: 10px 10px;
+    background-color: whitesmoke;
   }
 
   .price {

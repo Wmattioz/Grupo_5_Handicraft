@@ -4,20 +4,55 @@
   box-sizing: border-box;
   font-family: 'Calibri';
 }
-.estrella{
- color: rgb(156, 156, 156);
- font-size: 1.2em;
-    transition-property: color;
-    transition-duration: 00.5ms;
+.estrella {
+  color: rgb(156, 156, 156);
+  font-size: 1.2em;
+  transition-property: color;
+  transition-duration: 00.5ms;
 }
-.estrella:hover{
-    color:gold ;
-  }
-.imagen{
-  width: 50%;
+.estrella:hover {
+  color: gold;
 }
-.article{
-  width: 60%;
-  display:flex;
- position: bottom;
+.imagen {
+  width: 100%;
+}
+.article {
+  width: 80%;
+  display: flex;
+  position: bottom;
+}
+
+.producto {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: whitesmoke;
+  margin: 30px 30px;
+  transition: none;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  text-align: right;
+  position: absolute;
+  bottom: 0px;
+  padding: 10px 10px;
+  background-color: whitesmoke;
+  transform: none;
+}
+
+.producto:hover .description {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  text-align: right;
+  position: absolute;
+  bottom: 0px;
+  padding: 10px 10px;
+  background-color: whitesmoke;
+  transform: none;
 }
