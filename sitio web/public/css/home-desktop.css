@@ -19,22 +19,22 @@
   .section-prd-top {
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
   }
 
   .section-prd-bottom {
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
   }
 
   .producto {
     display: flex;
+    flex-direction: row;
     align-items: center;
-    justify-content: flex-end;
-    width: 30%;
-    height: 350px;
+    width: 25%;
     background-color: whitesmoke;
-    margin: 15px 15px;
-    border: 2px solid whitesmoke;
+    margin: 10px 10px;
   }
   /*   .producto-big {
     display: flex;
@@ -47,8 +47,10 @@
   } */
 
   .image {
+    margin: 10px 10px;
   }
   .preview {
+    display: flex;
     width: 250px;
     height: 250px;
   }
