@@ -12,9 +12,6 @@ const controllerProducto = {
   detalleProducto: (req, res) => {
     res.send('Bienvenidos al detalle del producto: ' + req.params.id);
   },
-  list: function (req, res) {
-    res.render('productList', { productList: productList });
-  },
 
   detalleComentario: (req, res) => {
     if (!req.params.cmt) {
