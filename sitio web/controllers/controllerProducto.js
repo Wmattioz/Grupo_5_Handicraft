@@ -11,15 +11,12 @@ const controllerProducto = {
     res.send('Bienvenidos al detalle del producto: ' + req.params.id);
   },
 
-  detalleComentarioProducto: (req, res) => {
+  detalleComentario: (req, res) => {
     if (!req.params.cmt) {
-      res.send('Este articulo todavia no tiene comentarios.');
+      res.send(`Este articulo todavia no tiene comentarios.`);
     } else {
       res.send(
-        'Bienvenidos al detalle del producto: ' +
-          req.params.id +
-          ' cuyos comentarios son: ' +
-          req.params.cmt
+        `Bienvenidos al detalle del producto: ${req.params.id} comentario numero: ${req.params.cmt}`
       );
     }
   },
