@@ -4,6 +4,11 @@
   box-sizing: border-box;
   font-family: 'Calibri';
 }
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
 .estrella {
   color: rgb(156, 156, 156);
   font-size: 1.2em;
@@ -14,20 +19,30 @@
   color: gold;
 }
 .imagen {
-  width: 100%;
+  width: 30%;
 }
+.preview {
+  width: 100%;
+  padding: 15px 15px;
+}
+
 .article {
   width: 80%;
   display: flex;
   position: bottom;
 }
 
+.prd-name {
+  padding: 15px 15px;
+  font-size: 20px;
+}
+
 .producto {
   display: flex;
-  position: relative;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
+  width: 50%;
+  flex-direction: column;
+  /*   align-items: center;
+  justify-content: center; */
   background-color: whitesmoke;
   margin: 30px 30px;
   transition: none;
@@ -35,24 +50,23 @@
 
 .description {
   display: flex;
-  flex-direction: column;
-  width: 100%;
-  text-align: right;
-  position: absolute;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 30%;
   bottom: 0px;
   padding: 10px 10px;
   background-color: whitesmoke;
   transform: none;
 }
 
-.producto:hover .description {
+/* .producto:hover .description {
   display: flex;
   flex-direction: column;
   width: 100%;
-  text-align: right;
+  text-align: left;
   position: absolute;
   bottom: 0px;
   padding: 10px 10px;
   background-color: whitesmoke;
   transform: none;
-}
+} */
