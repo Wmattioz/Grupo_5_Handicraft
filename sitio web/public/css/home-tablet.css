@@ -50,7 +50,7 @@
     height: 400px;
   }
 
-  .description {
+  .prd-container {
     display: flex;
     flex-direction: column;
     width: 100%;
