@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 const cartRoute = require('./routes/cartRoute.js');
-const constructRoute = require('./routes/constructRoute.js');
+const mainRoute = require('./routes/mainRoute.js');
 const homeRoute = require('./routes/homeRoute.js');
 const loginRoute = require('./routes/loginRoute.js');
 const productRoute = require('./routes/productRoute.js');
@@ -20,6 +20,8 @@ app.use('/login', loginRoute);
 app.use('/register', registerRoute);
 app.use('/producto', productRoute);
 app.use('/cart', cartRoute);
+app.use('/enconstruccion', mainRoute);
+app.use('/enmantenimiento', mainRoute);
 
 // DIVISOR ========================================================================
 
