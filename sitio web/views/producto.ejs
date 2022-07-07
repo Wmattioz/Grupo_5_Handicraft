@@ -1,21 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-  <%- include ('./partials/head') %>
+  <%- include ('./partials/head') %> <%- include ('./partials/header') %>
+  <link rel="stylesheet" type="text/css" href="public/css/producto.css" />
   <body>
     <div id="container">
-      <%- include ('./partials/header') %>
-      <main>
-        <article class="producto">
+        <section class="producto">
+          <div class="prd-name">
+            <p>Alzada con pie en forma de flor</p>
+          </div>
           <div class="imagen">
             <img class="preview" src="public/images/PRD-AlzadaFlor.png" />
           </div>
           <div class="description">
-            <div class="price">
-              <p>$12000</p>
-            </div>
-            <div class="prd-name">
-              <p>Alzada con pie en forma de flor</p>
-            </div>
             <div class="estrellas">
               <i class="fa-solid fa-star estrella"></i>
               <i class="fa-solid fa-star estrella"></i>
@@ -23,10 +19,13 @@
               <i class="fa-solid fa-star estrella"></i>
               <i class="fa-solid fa-star estrella"></i>
             </div>
+            <div class="price">
+              <p>$12000</p>
+            </div>
           </div>
-        </article>
+        </section>
       </main>
-      <%- include ('./partials/footer') %>
     </div>
+      <%- include ('./partials/footer') %>
   </body>
 </html>
