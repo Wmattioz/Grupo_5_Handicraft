@@ -1,6 +1,8 @@
+const productList = require('../views/products/productList_JSON');
+
 const controllerProducto = {
   mostrarProducto: (req, res) => {
-    return res.render('producto');
+    return res.render('product');
   },
 
   crearProducto: (req, res) => {},
@@ -9,6 +11,9 @@ const controllerProducto = {
 
   detalleProducto: (req, res) => {
     res.send('Bienvenidos al detalle del producto: ' + req.params.id);
+  },
+  list: function (req, res) {
+    res.render('productList', { productList: productList });
   },
 
   detalleComentario: (req, res) => {

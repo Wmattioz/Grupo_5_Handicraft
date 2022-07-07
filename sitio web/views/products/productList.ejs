@@ -1,0 +1,21 @@
+<% for (let i = 0; i < productList.length; i++) { %>
+<article class="producto">
+  <div class="image">
+    <a href="producto/<%= productList[i].id%>"
+      ><img class="preview" src="<%= productList[i].image %>"
+    /></a>
+  </div>
+  <div class="prd-container">
+    <div class="desc">
+      <p><%= productList[i].desc %></p>
+    </div>
+    <div class="price">
+      <p><%= productList[i].price %></p>
+      <p class="disc"><%= productList[i].disc %></p>
+    </div>
+    <div class="prd-name">
+      <p><%= productList[i].name %></p>
+    </div>
+  </div>
+</article>
+<% } %>
