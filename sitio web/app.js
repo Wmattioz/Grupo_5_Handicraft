@@ -2,6 +2,7 @@ const express = require('express');
 const app = express();
 const mainRoute =require('./routes/mainRoute')
 const path = require('path');
+const multer = require ('multer');
 
 app.set('view engine', 'ejs');
 app.use('/public', express.static(__dirname + '/public'));
