@@ -47,6 +47,7 @@
     background-color: whitesmoke;
     height: 28vh;
     border-radius: 1rem;
+    
   }
 
   .imagenesCart {
@@ -68,9 +69,11 @@
 
   .tituloProducto {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     width: 100%;
     margin-top: 0.5rem;
+    color:black
+
   }
 
   .breveDescripcion {
