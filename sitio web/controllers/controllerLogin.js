@@ -1,6 +1,6 @@
 const controllerLogin = {
   mostrarLogin: (req, res) => {
-    return res.render('login');
+    return res.render('users/login');
   },
 };
 

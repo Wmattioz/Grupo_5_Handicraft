@@ -4,7 +4,7 @@ const controllerProducto = require('../controllers/controllerProducto.js');
 
 router.get('/', controllerProducto.mostrarProducto);
 
-router.get('/:id', controllerProducto.detalleProducto);
+router.get('/:id', controllerProducto.mostrarProducto);
 
 router.get('/:id/comentarios/:cmt?', controllerProducto.detalleComentario);
 

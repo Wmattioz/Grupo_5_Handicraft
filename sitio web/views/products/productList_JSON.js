@@ -5,7 +5,7 @@ const productList = [
     price: '12000',
     disc: '',
     desc: 'Alzada con pie en forma de flor.',
-    image: 'public/images/PRD-AlzadaFlor.png',
+    image: '../public/images/PRD-AlzadaFlor.png',
   },
   {
     id: 2,
@@ -13,7 +13,7 @@ const productList = [
     price: '9000',
     disc: '15',
     desc: 'Canasto de flores tallado en vidrio.',
-    image: 'public/images/PRD-CanastoFlor.webp',
+    image: '../public/images/PRD-CanastoFlor.webp',
   },
   {
     id: 3,
@@ -21,7 +21,7 @@ const productList = [
     price: '15000',
     disc: '10',
     desc: 'Figura de cristal hecha a mano en forma de carruaje navideño.',
-    image: 'public/images/PRD-Carruaje.jpg',
+    image: '../public/images/PRD-Carruaje.jpg',
   },
   {
     id: 4,
@@ -29,7 +29,7 @@ const productList = [
     price: '15000',
     disc: '10',
     desc: 'Figura de cristal hecha a mano en forma de pajaros.',
-    image: 'public/images/PRD-Pajaros.jpg',
+    image: '../public/images/PRD-Pajaros.jpg',
   },
   {
     id: 5,
@@ -37,7 +37,7 @@ const productList = [
     price: '5500',
     disc: '10',
     desc: 'Platos hondos tallados x 6 unidades.',
-    image: 'public/images/PRD-PlatosHondos.jpg',
+    image: '../public/images/PRD-PlatosHondos.jpg',
   },
   {
     id: 6,
@@ -45,7 +45,7 @@ const productList = [
     price: '5550',
     disc: '10',
     desc: 'Platos playos tallados x 6 unidades.',
-    image: 'public/images/PRD-PlatosPlayos.webp',
+    image: '../public/images/PRD-PlatosPlayos.webp',
   },
   {
     id: 7,
@@ -53,7 +53,7 @@ const productList = [
     price: '3000',
     disc: '10',
     desc: 'Tortera tallada.',
-    image: 'public/images/PRD-TorteraTallada.webp',
+    image: '../public/images/PRD-TorteraTallada.webp',
   },
   {
     id: 8,
@@ -61,7 +61,7 @@ const productList = [
     price: '3500',
     disc: '10',
     desc: 'Frutera tallada.',
-    image: 'public/images/PRD-FruteraTallada.webp',
+    image: '../public/images/PRD-FruteraTallada.webp',
   },
 ];
 
