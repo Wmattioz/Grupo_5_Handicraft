@@ -10,8 +10,11 @@
       <p><%= productList[i].desc %></p>
     </div>
     <div class="price">
-      <p><%= productList[i].price %></p>
-      <p class="disc"><%= productList[i].disc %></p>
+      <p>$<%= productList[i].price %></p>
+      <p class="disc">
+        <% if(productList[i].disc.length == 0){ %> <%= productList[i].disc %> <%
+        } else{ %> <%= productList[i].disc %>% off <% } %>
+      </p>
     </div>
     <div class="prd-name">
       <p><%= productList[i].name %></p>
