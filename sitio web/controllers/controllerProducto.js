@@ -4,6 +4,7 @@ const controllerProducto = {
   mostrarProducto: (req, res) => {
     let i = req.params.id;
     i--;
+
     return res.render('products/productDetail', {
       productList: productList,
       i: i,
