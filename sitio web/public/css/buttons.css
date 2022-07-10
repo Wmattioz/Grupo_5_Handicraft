@@ -6,7 +6,7 @@
     font-family: 'Calibri';
   }
   .show-btn-back {
-    display: none;
+    display: flex;
   }
 }
 

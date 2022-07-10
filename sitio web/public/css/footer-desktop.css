@@ -25,11 +25,16 @@
     justify-content: space-around;
     align-items: baseline;
     border-top: 2px solid whitesmoke;
+    bottom: 38px;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
   }
   .footer-links {
     display: flex;
     justify-content: flex-end;
     width: 20%;
+    bottom: 0;
   }
   .footer-desc {
     display: flex;
@@ -50,6 +55,9 @@
   .copyright {
     padding: 10px 10px;
     bottom: 0px;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
   }
   .fa-brands {
     font-size: 22px;

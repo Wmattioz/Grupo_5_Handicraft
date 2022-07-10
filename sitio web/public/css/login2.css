@@ -1,28 +1,27 @@
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 769) {
   * {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
     font-family: 'Calibri';
   }
-
-  main {
-    background-color: #87a6ab;
-    padding-top: 90px;
+  html {
     height: 100vh;
     min-height: 100vh;
   }
-  form {
-    padding-top: 50px;
+  main {
+    background-color: #87a6ab;
+    padding-top: 10px;
   }
-
+  form {
+    padding-top: 10px;
+  }
   .banner {
     width: 90%;
     height: 75px;
     background-color: whitesmoke;
     margin: auto;
   }
-
   input {
     padding: 10px 10px;
     border-radius: 5px;

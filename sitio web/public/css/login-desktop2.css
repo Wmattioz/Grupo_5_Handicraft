@@ -5,17 +5,17 @@
     box-sizing: border-box;
     font-family: 'Calibri';
   }
-
+  html {
+    height: 100vh;
+    min-height: 100vh;
+  }
   main {
     background-color: #87a6ab;
     padding-top: 90px;
-    height: 100vh;
-    min-height: 100vh;
   }
   form {
     padding-top: 50px;
   }
-
   .banner {
     width: 90%;
     height: 75px;
