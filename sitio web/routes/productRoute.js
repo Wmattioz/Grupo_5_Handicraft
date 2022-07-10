@@ -6,6 +6,6 @@ router.get('/', controllerProducto.mostrarProducto);
 
 router.get('/:id', controllerProducto.mostrarProducto);
 
-router.get('/:id/comentarios/:cmt?', controllerProducto.detalleComentario);
+router.post('/editarProducto', controllerProducto.editarProducto);
 
 module.exports = router;
