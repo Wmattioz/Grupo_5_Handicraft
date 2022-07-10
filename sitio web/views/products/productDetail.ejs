@@ -1,40 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-  <%- include ('../partials/head') %> <%- include ('../partials/header') %>
-  <link rel="stylesheet" type="text/css" href="../public/css/producto.css" />
+  <%- include ('../partials/head') %>
+  <link
+    rel="stylesheet"
+    type="text/css"
+    href="../public/css/productDetail.css"
+  />
+  <%- include ('../partials/header') %>
   <body>
-    <div id="container">
+    <main>
+      <div id="container">
         <section class="producto">
-          <div class="prd-name">
-            <p><%= productList[i].name %></p>
+          <div class="half-1">
+            <div class="prd-name">
+              <p><%= productList[i].name %></p>
+            </div>
+            <div class="image">
+              <img class="preview" src="<%= productList[i].image %>" />
+            </div>
+            <div class="description">
+              <div class="estrellas">
+                <i class="fa-solid fa-star estrella"></i>
+                <i class="fa-solid fa-star estrella"></i>
+                <i class="fa-solid fa-star estrella"></i>
+                <i class="fa-solid fa-star estrella"></i>
+                <i class="fa-solid fa-star estrella"></i>
+              </div>
+              <p class="disc">
+                <% if(productList[i].disc.length == 0){ %> <%=
+                productList[i].disc %> <% } else{ %> <%= productList[i].disc %>%
+                off <% } %>
+              </p>
+              <div class="price">
+                <p>$<%= productList[i].price %></p>
+              </div>
+            </div>
           </div>
-          <div class="imagen">
-            <img class="preview" src="<%= productList[i].image %>" />
-          </div>
-          <div class="description">
-            <div class="desc">
-              <p><%= productList[i].desc %></p>
+          <div class="half-2">
+            <div class="text">
+              <div class="desc-short">
+                <p><%= productList[i].descs %></p>
+              </div>
+              <div class="desc-large">
+                <p><%= productList[i].descl %></p>
+              </div>
             </div>
-            <div class="estrellas">
-              <i class="fa-solid fa-star estrella"></i>
-              <i class="fa-solid fa-star estrella"></i>
-              <i class="fa-solid fa-star estrella"></i>
-              <i class="fa-solid fa-star estrella"></i>
-              <i class="fa-solid fa-star estrella"></i>
+            <p class="galeria-text">Galeria de imágenes:</p>
+            <div class="galeria">
+              <div class="image-mini">
+                <img class="preview-mini" src="<%= productList[i].image %>" />
+              </div>
+              <div class="image-mini">
+                <img class="preview-mini" src="<%= productList[i].image %>" />
+              </div>
+              <div class="image-mini">
+                <img class="preview-mini" src="<%= productList[i].image %>" />
+              </div>
             </div>
-            <div class="price">
-              <p>$<%= productList[i].price %></p>
-            </div>
-            <p class="disc">
-              <% if(productList[i].disc.length == 0){ %> <%= productList[i].disc %> <%
-              } else{ %> <%= productList[i].disc %>% off <% } %>
-            </p>
           </div>
         </section>
-      </main>
-    </div>
-      
+      </div>
+    </main>
   </body>
   <%- include ('../partials/footer') %>
 </html>
-
