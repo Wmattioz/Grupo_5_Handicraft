@@ -14,6 +14,9 @@ app.use('/public', express.static(__dirname + '/public'));
 
 app.listen(process.env.PORT || 3000, () => console.log('Server runnning'));
 
+app.use(express.urlencoded({ extended: false }));
+app.use(express.json());
+
 app.use('/', homeRoute);
 app.use('/home', homeRoute);
 app.use('/login', loginRoute);
