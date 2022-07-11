@@ -2,21 +2,15 @@ const productList = require('../views/products/productList_JSON');
 
 const controllerProducto = {
   mostrarProducto: (req, res) => {
-    if (!req.params.id) {
-      res.redirect('/');
-    } else {
-      let i = req.params.id;
-      i--;
-      res.render('products/productDetail', {
-        productList: productList,
-        i: i,
-      });
-    }
+    let i = req.params.id;
+    res.render('products/productDetail', {
+      productList: productList,
+      i: i,
+    });
   },
 
   crearProducto: (req, res) => {
     let i = req.params.id;
-    i--;
     res.render('products/productCreate', {
       productList: productList,
       i: i,
@@ -28,8 +22,6 @@ const controllerProducto = {
       res.redirect('/');
     } else {
       let i = req.params.id;
-      i--;
-
       return res.render('products/productEdit', {
         productList: productList,
         i: i,
@@ -39,7 +31,6 @@ const controllerProducto = {
 
   eliminarProducto: (req, res) => {
     let i = req.params.id;
-    i--;
     productList.splice(i, 1);
     res.redirect('/');
   },

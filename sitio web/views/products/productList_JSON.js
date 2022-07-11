@@ -1,4 +1,5 @@
 const productList = [
+  { id: '', name: '', price: '', disc: '', image: '', descs: '', descl: '' },
   {
     id: 1,
     name: 'Flor de Vidrio',

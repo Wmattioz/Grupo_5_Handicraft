@@ -11,7 +11,6 @@ router.get('/:id/editar', controllerProducto.editarProducto);
 
 router.put('/editar', (req, res) => {
   let i = req.body.id;
-  i--;
   productList[i].name = req.body.name;
   productList[i].price = req.body.price;
   productList[i].disc = req.body.disc;

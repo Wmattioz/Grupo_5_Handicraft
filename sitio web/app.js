@@ -25,6 +25,7 @@ app.use('/home', homeRoute);
 app.use('/login', loginRoute);
 app.use('/register', registerRoute);
 app.use('/producto', productRoute);
+app.use('/crear', productRoute);
 app.use('/cart', cartRoute);
 app.use('/enconstruccion', mainRoute);
 app.use('/enmantenimiento', mainRoute);

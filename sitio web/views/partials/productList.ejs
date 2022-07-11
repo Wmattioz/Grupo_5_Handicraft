@@ -1,4 +1,4 @@
-<% for (let i = 0; i < productList.length; i++) { %>
+<% for (let i = 1; i < productList.length; i++) { %>
 <article class="producto">
   <div class="image">
     <a href="producto/<%= productList[i].id%>"
@@ -12,8 +12,8 @@
     <div class="price">
       <p>$<%= productList[i].price %></p>
       <p class="disc">
-        <% if(productList[i].disc.length == 0){ %> <%= productList[i].disc %> <%
-        } else{ %> <%= productList[i].disc %>% off <% } %>
+        <%= productList[i].disc.length == 0 ? productList[i].disc :
+        productList[i].disc + "% off" %>
       </p>
     </div>
     <div class="prd-name">
