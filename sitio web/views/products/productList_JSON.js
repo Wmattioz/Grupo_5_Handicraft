@@ -28,7 +28,7 @@ const productList = [
     image: 'PRD-Carruaje.jpg',
     descs: 'Figura de cristal hecha a mano en forma de carruaje navideño.',
     descl:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque egestas, erat sit amet ullamcorper auctor, sem lorem ornare mauris, nec lacinia.',
+      'Una decoracion muy fina con forma de carruaje navideño hecha a mano por HandiCraft, Ideal para la decoracion de hogar. Maravilloso accesorio para expositores de centro de mesa de comedor. Este seria un regalo perfecto para inauguración de la casa,Navidad y festejos familiares. Objeto decorativo. No es un juguete. No apropiado para niños menores de 15 años.',
   },
   {
     id: 4,
@@ -38,7 +38,7 @@ const productList = [
     image: 'PRD-Pajaros.jpg',
     descs: 'Figura de cristal hecha a mano en forma de pajaros.',
     descl:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque egestas, erat sit amet ullamcorper auctor, sem lorem ornare mauris, nec lacinia.',
+      'Esta preciosa creación de cristal captura la naturaleza alegre y los hermosos colores de los pajaritos. Elaborado en su totalidad de cristal, sus 280 facetas brillan en diferentes tonos de colores, con unos ojos de cristal negro y un pico de cristal rojo. Diseñado por HandiCraft, esta decoracion aportará un toque fresco y moderno a la decoración de tu hogar. Ideal para regalar y una pieza imprescindible para los coleccionistas. Objeto decorativo. No es un juguete. No apropiado para niños menores de 15 años.',
   },
   {
     id: 5,
@@ -48,7 +48,7 @@ const productList = [
     image: 'PRD-PlatosHondos.jpg',
     descs: 'Platos hondos tallados x 6 unidades.',
     descl:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque egestas, erat sit amet ullamcorper auctor, sem lorem ornare mauris, nec lacinia.',
+      'Vestí tu mesa con estos elegantes platos para uso diario, super practicos y de muy buen tamaño. De vidrio transparente, con diseño estético. Fabricados por la reconocida marca HandiCraft, Industria Argentina.',
   },
   {
     id: 6,
@@ -58,7 +58,7 @@ const productList = [
     image: 'PRD-PlatosPlayos.webp',
     descs: 'Platos playos tallados x 6 unidades.',
     descl:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque egestas, erat sit amet ullamcorper auctor, sem lorem ornare mauris, nec lacinia.',
+      'Vestí tu mesa con estos elegantes platos para uso diario, super practicos y de muy buen tamaño. De vidrio transparente, con diseño estético. Fabricados por la reconocida marca HandiCraft, Industria Argentina.',
   },
   {
     id: 7,
@@ -68,7 +68,7 @@ const productList = [
     image: 'PRD-TorteraTallada.webp',
     descs: 'Tortera tallada.',
     descl:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque egestas, erat sit amet ullamcorper auctor, sem lorem ornare mauris, nec lacinia.',
+      'Vesti tu mesa von esta elegante tortera tallada hecha por HandiCraft. Ideal para presentar tus tortas, masas y mucho mas. Maravilloso regalo para cuando estas invitado a un acontecimiento y no sabes que llevar.',
   },
   {
     id: 8,
@@ -78,7 +78,7 @@ const productList = [
     image: 'PRD-FruteraTallada.webp',
     descs: 'Frutera tallada.',
     descl:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque egestas, erat sit amet ullamcorper auctor, sem lorem ornare mauris, nec lacinia.',
+      'Vesti tu mesa von esta elegante frutera tallada hecha por HandiCraft. Ideal para poner frutas en la mesa de manera delicada. Maravilloso regalo para cuando estas invitado a un acontecimiento y no sabes que llevar.',
   },
 ];
 
