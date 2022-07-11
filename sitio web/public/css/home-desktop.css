@@ -79,9 +79,26 @@
   }
 
   .price {
+    display: flex;
+    align-items: baseline;
+    font-weight: bold;
+    font-family: 'Lucida Sans';
   }
 
   .prd-name {
+    font-family: 'Lucida Sans';
+    font-weight: bold;
+  }
+
+  .desc {
+    font-family: 'Lucida Sans';
+  }
+
+  .disc {
+    font-family: 'Lucida Sans';
+    font-weight: bold;
+    color: #39b54a;
+    padding-left: 25px;
   }
 
   .btn-create {
