@@ -2,18 +2,33 @@ const productList = require('../views/products/productList_JSON');
 
 const controllerProducto = {
   mostrarProducto: (req, res) => {
-    let i = req.params.id;
-    i--;
-
-    return res.render('products/productDetail', {
-      productList: productList,
-      i: i,
-    });
+    if (!req.params.id) {
+      res.redirect('/');
+    } else {
+      let i = req.params.id;
+      i--;
+      return res.render('products/productDetail', {
+        productList: productList,
+        i: i,
+      });
+    }
   },
 
   crearProducto: (req, res) => {},
 
-  editarProducto: (req, res) => {},
+  editarProducto: (req, res) => {
+    if (!req.params.id) {
+      res.redirect('/');
+    } else {
+      let i = req.params.id;
+      i--;
+
+      return res.render('products/productEdit', {
+        productList: productList,
+        i: i,
+      });
+    }
+  },
 
   detalleProducto: (req, res) => {
     res.send('Bienvenidos al detalle del producto: ' + req.params.id);

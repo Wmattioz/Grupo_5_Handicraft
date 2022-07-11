@@ -120,7 +120,8 @@ main {
   text-align: center;
 }
 
-.buy {
+.buy,
+.btn-edit {
   color: #39b54a;
   width: 40%;
   text-align: center;
@@ -132,6 +133,13 @@ main {
   background-color: #7cc6b0;
   color: white;
 }
+
+.btn-edit {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
 a:visited {
   color: white;
 }

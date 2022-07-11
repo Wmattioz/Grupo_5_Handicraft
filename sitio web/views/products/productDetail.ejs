@@ -16,7 +16,10 @@
               <p><%= productList[i].name %></p>
             </div>
             <div class="image">
-              <img class="preview" src="<%= productList[i].image %>" />
+              <img
+                class="preview"
+                src="../public/images/<%= productList[i].image %>"
+              />
             </div>
             <div class="description">
               <div class="estrellas">
@@ -42,6 +45,11 @@
             </div>
           </div>
           <div class="half-2">
+            <a
+              class="btn-edit"
+              href="../producto/<%= productList[i].id%>/editar"
+              >EDITAR</a
+            >
             <div class="text">
               <div class="desc-short">
                 <p><%= productList[i].descs %></p>
@@ -52,15 +60,14 @@
             </div>
             <p class="galeria-text">Galeria de imágenes:</p>
             <div class="galeria">
+              <% for (let e = 0; e < 3; e++) { %>
               <div class="image-mini">
-                <img class="preview-mini" src="<%= productList[i].image %>" />
+                <img
+                  class="preview-mini"
+                  src="../public/images/<%= productList[i].image %>"
+                />
               </div>
-              <div class="image-mini">
-                <img class="preview-mini" src="<%= productList[i].image %>" />
-              </div>
-              <div class="image-mini">
-                <img class="preview-mini" src="<%= productList[i].image %>" />
-              </div>
+              <% } %>
             </div>
           </div>
         </section>

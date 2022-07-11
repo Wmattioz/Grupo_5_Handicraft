@@ -8,12 +8,15 @@ const productRoute = require('./routes/productRoute.js');
 const registerRoute = require('./routes/registerRoute.js');
 const path = require('path');
 const multer = require('multer');
+const methodOverride = require('method-override');
 
 app.set('view engine', 'ejs');
 app.use('/public', express.static(__dirname + '/public'));
+app.use('/css', express.static(__dirname + '/css'));
 
 app.listen(process.env.PORT || 3000, () => console.log('Server runnning'));
 
+app.use(methodOverride('_method'));
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 
@@ -22,6 +25,7 @@ app.use('/home', homeRoute);
 app.use('/login', loginRoute);
 app.use('/register', registerRoute);
 app.use('/producto', productRoute);
+app.use('/edit', productRoute);
 app.use('/cart', cartRoute);
 app.use('/enconstruccion', mainRoute);
 app.use('/enmantenimiento', mainRoute);
