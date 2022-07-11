@@ -8,7 +8,9 @@
 main {
   padding-top: 150px;
 }
-
+body{
+  background-color: #87a6ab;
+}
 .container {
   display: flex;
   flex-direction: row;

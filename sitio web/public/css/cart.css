@@ -4,6 +4,9 @@
     font-family: 'Lucida Sans', sans-serif;
     padding: 1rem;
   }
+  body{
+   background-color:#87a6ab ;
+  }
 
   .cart {
     display: block;
