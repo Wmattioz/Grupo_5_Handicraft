@@ -15,6 +15,16 @@
     href="/public/css/footer-desktop.css"
   />
   <link rel="stylesheet" type="text/css" href="/public/css/productEdit.css" />
+  <link
+    rel="stylesheet"
+    type="text/css"
+    href="/public/css/productEdit-tablet.css"
+  />
+  <link
+    rel="stylesheet"
+    type="text/css"
+    href="/public/css/productEdit-desktop.css"
+  />
   <%- include ('../partials/header') %>
   <body>
     <main>
@@ -47,10 +57,7 @@
           <input type="number" name="disc" value="<%= productList[i].disc %>" />
           <label for="">Imagen:</label>
           <input type="text" name="image" value="<%= productList[i].image %>" />
-
-          <div class="buttons">
-            <input class="submit" type="submit" value="Actualizar datos" />
-          </div>
+          <input class="submit" type="submit" value="Actualizar datos" />
         </form>
       </div>
     </main>
