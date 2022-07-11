@@ -5,7 +5,7 @@ const productList = require('../views/products/productList_JSON.js');
 
 router.get('/', controllerProducto.mostrarProducto);
 
-router.get('/:id', controllerProducto.mostrarProducto);
+router.get('/:id/mostrar', controllerProducto.mostrarProducto);
 
 router.get('/:id/editar', controllerProducto.editarProducto);
 
@@ -17,14 +17,14 @@ router.put('/editar', (req, res) => {
   productList[i].descs = req.body.descs;
   productList[i].descl = req.body.descl;
   productList[i].image = req.body.image;
-  res.redirect('/producto/' + req.body.id);
+  res.redirect('/producto/' + req.body.id + '/mostrar');
 });
 
 router.get('/crear', controllerProducto.crearProducto);
 
 router.put('/crear', (req, res) => {
   let tempID = productList.length;
-  tempID++;
+  /*   tempID++; */
   let tempObject = {
     id: tempID,
     name: req.body.name,
@@ -35,7 +35,7 @@ router.put('/crear', (req, res) => {
     descl: req.body.descl,
   };
   productList.push(tempObject);
-  res.redirect('/producto/' + tempID);
+  res.redirect('/producto/' + tempID + '/mostrar');
 });
 
 router.get('/:id/eliminar', controllerProducto.eliminarProducto);

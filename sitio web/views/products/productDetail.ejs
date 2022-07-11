@@ -1,11 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-  <%- include ('../partials/head') %>
+  <link rel="stylesheet" type="text/css" href="/public/css/header.css" />
+  <link rel="stylesheet" type="text/css" href="/public/css/header-tablet.css" />
   <link
     rel="stylesheet"
     type="text/css"
-    href="../public/css/productDetail.css"
+    href="/public/css/header-desktop.css"
   />
+  <link rel="stylesheet" type="text/css" href="/public/css/footer.css" />
+  <link rel="stylesheet" type="text/css" href="/public/css/footer-tablet.css" />
+  <link
+    rel="stylesheet"
+    type="text/css"
+    href="/public/css/footer-desktop.css"
+  />
+  <link rel="stylesheet" type="text/css" href="/public/css/productDetail.css" />
   <%- include ('../partials/header') %>
   <body>
     <main>
@@ -18,7 +27,7 @@
             <div class="image">
               <img
                 class="preview"
-                src="../public/images/<%= productList[i].image %>"
+                src="/public/images/<%= productList[i].image %>"
               />
             </div>
             <div class="description">
@@ -45,9 +54,7 @@
             </div>
           </div>
           <div class="half-2">
-            <a
-              class="btn-edit"
-              href="../producto/<%= productList[i].id%>/editar"
+            <a class="btn-edit" href="/producto/<%= productList[i].id%>/editar"
               >EDITAR</a
             >
             <form
@@ -57,7 +64,7 @@
             >
               <a
                 class="btn-delete"
-                href="../producto/<%= productList[i].id%>/eliminar"
+                href="/producto/<%= productList[i].id%>/eliminar"
                 >ELIMINAR</a
               >
             </form>
@@ -75,7 +82,7 @@
               <div class="image-mini">
                 <img
                   class="preview-mini"
-                  src="../public/images/<%= productList[i].image %>"
+                  src="/public/images/<%= productList[i].image %>"
                 />
               </div>
               <% } %>
