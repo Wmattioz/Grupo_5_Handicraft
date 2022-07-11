@@ -121,7 +121,8 @@ main {
 }
 
 .buy,
-.btn-edit {
+.btn-edit,
+.btn-delete {
   color: #39b54a;
   width: 40%;
   text-align: center;
@@ -136,8 +137,17 @@ main {
 
 .btn-edit {
   position: absolute;
+  width: 90px;
   top: 0;
   right: 0;
+}
+
+.btn-delete {
+  position: absolute;
+  width: 90px;
+  top: 0;
+  right: 95px;
+  background-color: red;
 }
 
 a:visited {

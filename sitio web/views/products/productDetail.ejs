@@ -50,6 +50,17 @@
               href="../producto/<%= productList[i].id%>/editar"
               >EDITAR</a
             >
+            <form
+              class="fields"
+              method="POST"
+              action="/producto/eliminar?_method=DELETE"
+            >
+              <a
+                class="btn-delete"
+                href="../producto/<%= productList[i].id%>/eliminar"
+                >ELIMINAR</a
+              >
+            </form>
             <div class="text">
               <div class="desc-short">
                 <p><%= productList[i].descs %></p>

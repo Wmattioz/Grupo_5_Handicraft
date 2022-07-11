@@ -21,6 +21,26 @@ router.put('/editar', (req, res) => {
   res.redirect('/producto/' + req.body.id);
 });
 
+router.get('/crear', controllerProducto.crearProducto);
+
+router.put('/crear', (req, res) => {
+  let tempID = productList.length;
+  tempID++;
+  let tempObject = {
+    id: tempID,
+    name: req.body.name,
+    price: req.body.price,
+    disc: req.body.disc,
+    image: req.body.image,
+    descs: req.body.descs,
+    descl: req.body.descl,
+  };
+  productList.push(tempObject);
+  res.redirect('/producto/' + tempID);
+});
+
+router.get('/:id/eliminar', controllerProducto.eliminarProducto);
+
 router.get('/:id/comentarios/:cmt?', controllerProducto.detalleComentario);
 
 module.exports = router;

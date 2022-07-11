@@ -7,14 +7,21 @@ const controllerProducto = {
     } else {
       let i = req.params.id;
       i--;
-      return res.render('products/productDetail', {
+      res.render('products/productDetail', {
         productList: productList,
         i: i,
       });
     }
   },
 
-  crearProducto: (req, res) => {},
+  crearProducto: (req, res) => {
+    let i = req.params.id;
+    i--;
+    res.render('products/productCreate', {
+      productList: productList,
+      i: i,
+    });
+  },
 
   editarProducto: (req, res) => {
     if (!req.params.id) {
@@ -28,6 +35,13 @@ const controllerProducto = {
         i: i,
       });
     }
+  },
+
+  eliminarProducto: (req, res) => {
+    let i = req.params.id;
+    i--;
+    productList.splice(i, 1);
+    res.redirect('/');
   },
 
   detalleProducto: (req, res) => {
