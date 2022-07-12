@@ -6,15 +6,20 @@ const userLoggedIn = require('../views/users/userSession_JSON');
 
 router.get('/', controllerRegister.mostrarRegister);
 
-router.put('/registrar', (req, res) => {
-  let i = req.body.id;
-  productList[i].name = req.body.name;
-  productList[i].price = req.body.price;
-  productList[i].disc = req.body.disc;
-  productList[i].descs = req.body.descs;
-  productList[i].descl = req.body.descl;
-  productList[i].image = req.body.image;
-  res.redirect('/producto/' + req.body.id + '/mostrar');
+router.put('/user', (req, res) => {
+  let tempID = userList.length;
+  tempID++;
+  let tempUser = {
+    id: tempID,
+    first_name: req.body.first_name,
+    last_name: req.body.last_name,
+    user_name: req.body.user_name,
+    passwd: req.body.passwd,
+    role: '',
+    loggedIn: false,
+  };
+  userList.push(tempUser);
+  res.redirect('/');
 });
 
 module.exports = router;

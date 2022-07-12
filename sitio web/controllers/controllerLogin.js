@@ -13,7 +13,19 @@ const controllerLogin = {
       userList: userList,
     });
   },
-  validateUser: (req, res) => {
+  closeSession: (req, res) => {
+    userList.forEach(function (user, index) {
+      if (userLoggedIn.user_name == user.user_name) {
+        this[index].loggedIn = false;
+      }
+    }, userList);
+    userLoggedIn.loggedIn = false;
+    userLoggedIn.first_name = '';
+    userLoggedIn.last_name = '';
+    userLoggedIn.user_name = '';
+    userLoggedIn.passwd = '';
+
+    res.redirect('/');
     res.send(userList);
   },
 };

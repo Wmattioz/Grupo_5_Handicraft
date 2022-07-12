@@ -6,6 +6,24 @@ const controllerLogin = require('../controllers/controllerLogin.js');
 
 router.get('/', controllerLogin.mostrarLogin);
 
+router.get('/close', controllerLogin.closeSession);
+
+router.put('/update', (req, res) => {
+  userList.forEach(function (user, index) {
+    if (userLoggedIn.user_name == user.user_name) {
+      this[index].first_name = req.body.first_name;
+      this[index].last_name = req.body.last_name;
+      this[index].user_name = req.body.user_name;
+      this[index].passwd = req.body.passwd;
+      userLoggedIn.first_name = req.body.first_name;
+      userLoggedIn.last_name = req.body.last_name;
+      userLoggedIn.user_name = req.body.user_name;
+      userLoggedIn.passwd = req.body.passwd;
+    }
+  }, userList);
+  res.redirect('/');
+});
+
 router.get('/user', controllerLogin.accountDetails);
 
 router.put('/user', (req, res) => {
@@ -25,17 +43,5 @@ router.put('/user', (req, res) => {
   });
   res.redirect('/');
 });
-/*
-router.put('/login', (req, res) => {
-  res.send('estoy en login');
-     let i = req.body.id;
-    productList[i].name = req.body.name;
-    productList[i].price = req.body.price;
-    productList[i].disc = req.body.disc;
-    productList[i].descs = req.body.descs;
-    productList[i].descl = req.body.descl;
-    productList[i].image = req.body.image;
-    res.redirect('/producto/' + req.body.id + '/mostrar'); 
-});*/
 
 module.exports = router;
