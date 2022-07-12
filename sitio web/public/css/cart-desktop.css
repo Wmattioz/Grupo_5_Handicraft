@@ -1,4 +1,8 @@
 @media only screen and (min-width: 1200px) {
+  .container {
+    position: relative;
+    min-height: 100vh;
+  }
   .mainCart {
     padding-top: 90px;
     font-family: 'Lucida Sans', sans-serif;

@@ -6,13 +6,18 @@
     font-family: 'Calibri';
   }
 
-  main {
+  body {
     background-color: #87a6ab;
-    padding-top: 90px;
-    height: 100vh;
+  }
+  .container {
+    position: relative;
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
   }
 
+  #content-wrap {
+  }
   .banner {
     width: 90%;
     height: 75px;
@@ -36,7 +41,6 @@
     justify-content: center;
     background-color: whitesmoke;
     margin: 20px 20px;
-    z-index: 1;
     transition: transform 0.5s;
     border-radius: 1rem;
   }
@@ -103,7 +107,7 @@
 
   .btn-create {
     position: absolute;
-    bottom: 120px;
+    bottom: 15rem;
     right: 24px;
     font-size: 56px;
     line-height: 44px;

@@ -21,17 +21,17 @@
 
   .footer {
     display: flex;
+    position: absolute;
     flex-direction: row;
     justify-content: space-around;
     align-items: baseline;
     border-top: 2px solid whitesmoke;
-    
-    /*
-    bottom: 10px;
-    position: fixed;
+    z-index: 2;
+    bottom: 29px;
     width: 100%;
-    z-index: 2;*/
+    margin-top: auto;
   }
+
   .footer-links {
     display: flex;
     justify-content: flex-end;
@@ -56,10 +56,10 @@
   }
   .copyright {
     padding: 10px 10px;
+    position: absolute;
+    z-index: 2;
     bottom: 0px;
-    /*position: fixed;
     width: 100%;
-    z-index: 2;*/
   }
   .fa-brands {
     font-size: 22px;
