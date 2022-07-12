@@ -1,19 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  <link rel="stylesheet" type="text/css" href="/public/css/header.css" />
-  <link rel="stylesheet" type="text/css" href="/public/css/header-tablet.css" />
-  <link
-    rel="stylesheet"
-    type="text/css"
-    href="/public/css/header-desktop.css"
-  />
-  <link rel="stylesheet" type="text/css" href="/public/css/footer.css" />
-  <link rel="stylesheet" type="text/css" href="/public/css/footer-tablet.css" />
-  <link
-    rel="stylesheet"
-    type="text/css"
-    href="/public/css/footer-desktop.css"
-  />
+  <%- include ('../partials/head') %>
   <link rel="stylesheet" type="text/css" href="/public/css/productDetail.css" />
   <link
     rel="stylesheet"
@@ -64,6 +51,8 @@
             </div>
           </div>
           <div class="half-2">
+            <% for (let u = 0; u < userList.length; u++) { %> <%
+            if(userList[u].loggedIn == true){ %>
             <a class="btn-edit" href="/producto/<%= productList[i].id%>/editar"
               >EDITAR</a
             >
@@ -78,6 +67,8 @@
                 >ELIMINAR</a
               >
             </form>
+            <% } %> <% } %>
+
             <div class="text">
               <div class="desc-short">
                 <p><%= productList[i].descs %></p>

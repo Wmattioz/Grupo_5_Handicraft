@@ -2,6 +2,7 @@ const express = require('express');
 const router = express.Router();
 const controllerProducto = require('../controllers/controllerProducto.js');
 const productList = require('../views/products/productList_JSON.js');
+const userList = require('../views/users/usersList_JSON');
 
 router.get('/', controllerProducto.mostrarProducto);
 

@@ -12,9 +12,10 @@
           <img src="public/images/banner.jpg" />
         </div>
         <section class="section-prd">
-          <%- include ('./partials/productList') %>
-
+          <%- include ('./partials/productList') %> <% for (let u = 0; u <
+          userList.length; u++) { %> <% if(userList[u].loggedIn == true){ %>
           <a class="btn-create" href="../producto/crear">+</a>
+          <% } %> <% } %>
         </section>
       </main>
     </div>

@@ -20,17 +20,25 @@
           <img src="public/images/banner.jpg" />
         </div>
         <form action="/register" method="POST">
+          <div class="firstName">
+            <label for="user">Nombre:</label>
+            <input type="text" name="first_name" />
+          </div>
+          <div class="lastName">
+            <label for="user">Apellido:</label>
+            <input type="text" name="last_name" />
+          </div>
           <div class="user">
-            <label for="user">Nombre de usuario</label>
-            <input type="text" name="user" id="user" />
+            <label for="user">Nombre de usuario:</label>
+            <input type="text" name="user_name" />
           </div>
           <div class="passwords">
             <label for="password">Ingresar contraseña:</label>
-            <input type="password" name="password" value="" />
+            <input type="password" name="passwd" value="" />
           </div>
           <div class="passwords">
             <label for="password">Confirmar contraseña:</label>
-            <input type="password" name="password2" value="" />
+            <input type="password" name="passwd2" value="" />
           </div>
           <div class="buttons">
             <button type="submit" value="enviar">Enviar</button>

@@ -1,4 +1,5 @@
 const productList = require('../views/products/productList_JSON');
+const userList = require('../views/users/usersList_JSON');
 
 const controllerProducto = {
   mostrarProducto: (req, res) => {
@@ -6,6 +7,7 @@ const controllerProducto = {
     res.render('products/productDetail', {
       productList: productList,
       i: i,
+      userList: userList,
     });
   },
 
