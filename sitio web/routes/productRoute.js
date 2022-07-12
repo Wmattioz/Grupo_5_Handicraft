@@ -3,6 +3,7 @@ const router = express.Router();
 const controllerProducto = require('../controllers/controllerProducto.js');
 const productList = require('../views/products/productList_JSON.js');
 const userList = require('../views/users/usersList_JSON');
+const userLoggedIn = require('../views/users/userSession_JSON');
 
 router.get('/', controllerProducto.mostrarProducto);
 

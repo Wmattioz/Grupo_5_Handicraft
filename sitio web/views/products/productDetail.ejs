@@ -51,8 +51,7 @@
             </div>
           </div>
           <div class="half-2">
-            <% for (let u = 0; u < userList.length; u++) { %> <%
-            if(userList[u].loggedIn == true){ %>
+            <% if(userLoggedIn.user_name){ %>
             <a class="btn-edit" href="/producto/<%= productList[i].id%>/editar"
               >EDITAR</a
             >
@@ -67,7 +66,7 @@
                 >ELIMINAR</a
               >
             </form>
-            <% } %> <% } %>
+            <% } %>
 
             <div class="text">
               <div class="desc-short">

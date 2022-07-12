@@ -1,5 +1,6 @@
 const productList = require('../views/products/productList_JSON');
 const userList = require('../views/users/usersList_JSON');
+const userLoggedIn = require('../views/users/userSession_JSON');
 
 const controllerProducto = {
   mostrarProducto: (req, res) => {
@@ -7,7 +8,7 @@ const controllerProducto = {
     res.render('products/productDetail', {
       productList: productList,
       i: i,
-      userList: userList,
+      userLoggedIn: userLoggedIn,
     });
   },
 
@@ -16,6 +17,7 @@ const controllerProducto = {
     res.render('products/productCreate', {
       productList: productList,
       i: i,
+      userLoggedIn: userLoggedIn,
     });
   },
 
@@ -27,6 +29,7 @@ const controllerProducto = {
       return res.render('products/productEdit', {
         productList: productList,
         i: i,
+        userLoggedIn: userLoggedIn,
       });
     }
   },

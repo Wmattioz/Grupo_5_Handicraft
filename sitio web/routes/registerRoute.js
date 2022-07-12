@@ -1,7 +1,8 @@
 const express = require('express');
 const router = express.Router();
 const controllerRegister = require('../controllers/controllerRegister.js');
-const userList = require('../views/users/usersList_JSON.js');
+const userList = require('../views/users/usersList_JSON');
+const userLoggedIn = require('../views/users/userSession_JSON');
 
 router.get('/', controllerRegister.mostrarRegister);
 

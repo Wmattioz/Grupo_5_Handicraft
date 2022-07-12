@@ -1,14 +1,20 @@
 const userList = require('../views/users/usersList_JSON');
+const userLoggedIn = require('../views/users/userSession_JSON');
 
 const controllerLogin = {
   mostrarLogin: (req, res) => {
-    return res.render('users/login');
+    return res.render('users/login', {
+      userLoggedIn: userLoggedIn,
+    });
   },
-  authenticateUser: (req, res) => {
-    res.send(req.body.id);
+  accountDetails: (req, res) => {
+    res.render('users/accountDetails', {
+      userLoggedIn: userLoggedIn,
+      userList: userList,
+    });
   },
   validateUser: (req, res) => {
-    res.send(req.body.name);
+    res.send(userList);
   },
 };
 

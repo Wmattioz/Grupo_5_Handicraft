@@ -12,10 +12,12 @@
           <img src="public/images/banner.jpg" />
         </div>
         <section class="section-prd">
-          <%- include ('./partials/productList') %> <% for (let u = 0; u <
-          userList.length; u++) { %> <% if(userList[u].loggedIn == true){ %>
-          <a class="btn-create" href="../producto/crear">+</a>
-          <% } %> <% } %>
+          <%- include ('./partials/productList') %> <%
+          if(userLoggedIn.user_name){ %>
+          <div>
+            <a class="btn-create" href="../producto/crear">+</a>
+          </div>
+          <% } %>
         </section>
       </main>
     </div>
