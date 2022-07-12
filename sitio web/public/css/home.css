@@ -3,11 +3,18 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    font-family: 'Lucida Sans';
+    font-family: 'Calibri';
   }
+
   body {
     background-color: #87a6ab;
-    padding-top: 10px;
+    height: 100vh;
+  }
+
+  .container {
+    position: relative;
+    min-height: 100vh;
+    display: flex;
   }
   .banner {
     width: 90%;

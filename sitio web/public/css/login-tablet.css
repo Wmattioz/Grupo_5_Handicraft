@@ -6,12 +6,17 @@
     font-family: 'Calibri';
   }
 
-  main {
+  body {
     background-color: #87a6ab;
-    padding-top: 90px;
+    min-height: 100vh;
+  }
+
+  .container {
+    position: relative;
+    display: flex;
   }
   form {
-    padding-top: 50px;
+    padding-top: 90px;
     height: 100vh;
     min-height: 100vh;
   }

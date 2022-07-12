@@ -1,6 +1,24 @@
 @media only screen and (min-width: 761px) {
+  * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Calibri';
+  }
+
+  body {
+    background-color: #87a6ab;
+    height: 100vh;
+    margin-top: 90px;
+  }
+
+  .container {
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+  }
+
   .mainCart {
-    padding-top: 90px;
     font-family: 'Lucida Sans', sans-serif;
   }
 

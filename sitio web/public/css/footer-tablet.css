@@ -18,7 +18,15 @@
   h3 {
     color: whitesmoke;
   }
+  .half-1-footer {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
 
+  .half-2-footer {
+    display: flex;
+  }
   .footer {
     display: flex;
     flex-direction: column;

@@ -8,16 +8,15 @@
 
   body {
     background-color: #87a6ab;
-  }
-  .container {
-    position: relative;
     min-height: 100vh;
-    display: flex;
-    flex-direction: column;
+    margin-top: 90px;
   }
 
-  #content-wrap {
+  .container {
+    position: relative;
+    display: flex;
   }
+
   .banner {
     width: 90%;
     height: 75px;

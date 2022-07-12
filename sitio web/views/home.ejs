@@ -6,20 +6,18 @@
   <link rel="stylesheet" type="text/css" href="public/css/home-desktop.css" />
   <body>
     <div id="container">
-      <div id="content-wrap">
-        <%- include ('./partials/header') %>
-        <main>
-          <div class="banner">
-            <img src="public/images/banner.jpg" />
-          </div>
-          <section class="section-prd">
-            <%- include ('./partials/productList') %>
+      <%- include ('./partials/header') %>
+      <main>
+        <div class="banner">
+          <img src="public/images/banner.jpg" />
+        </div>
+        <section class="section-prd">
+          <%- include ('./partials/productList') %>
 
-            <a class="btn-create" href="../producto/crear">+</a>
-          </section>
-        </main>
-      </div>
-      <%- include ('./partials/footer') %>
+          <a class="btn-create" href="../producto/crear">+</a>
+        </section>
+      </main>
     </div>
+    <%- include ('./partials/footer') %>
   </body>
 </html>

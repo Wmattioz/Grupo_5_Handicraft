@@ -19,17 +19,30 @@
     color: whitesmoke;
   }
 
+  .half-1-footer {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .half-2-footer {
+    display: flex;
+    position: relative;
+  }
+
   .footer {
     display: flex;
-    position: absolute;
-    flex-direction: row;
+    position: sticky;
+    flex-direction: column;
     justify-content: space-around;
     align-items: baseline;
     border-top: 2px solid whitesmoke;
     z-index: 2;
-    bottom: 29px;
     width: 100%;
-    margin-top: auto;
+    top: 100%;
   }
 
   .footer-links {
@@ -56,10 +69,10 @@
   }
   .copyright {
     padding: 10px 10px;
-    position: absolute;
+    position: relative;
     z-index: 2;
-    bottom: 0px;
     width: 100%;
+    text-align: center;
   }
   .fa-brands {
     font-size: 22px;

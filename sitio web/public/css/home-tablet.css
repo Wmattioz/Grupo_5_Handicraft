@@ -5,9 +5,16 @@
     box-sizing: border-box;
     font-family: 'Calibri';
   }
-  main {
+
+  body {
     background-color: #87a6ab;
-    padding-top: 90px;
+    height: 100vh;
+  }
+
+  .container {
+    position: relative;
+    min-height: 100vh;
+    display: flex;
   }
 
   .banner {

@@ -18,6 +18,17 @@
   h3 {
     color: whitesmoke;
   }
+  .half-1-footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .half-2-footer {
+    display: flex;
+  }
 
   .footer {
     display: flex;
