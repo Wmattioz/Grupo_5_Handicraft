@@ -13,6 +13,10 @@
     align-items: center;
   }
 
+  main {
+    margin-top: 0px;
+  }
+
   .head {
     display: flex;
     flex-direction: row;
@@ -25,6 +29,18 @@
     padding-bottom: 5px;
     border-bottom: 2px solid whitesmoke;
     background-color: #62909a;
+  }
+
+  .banner {
+    width: 90%;
+    height: 75px;
+    background-color: whitesmoke;
+    margin: auto;
+  }
+
+  .banner img {
+    width: 100%;
+    height: 75px;
   }
 
   .logo {

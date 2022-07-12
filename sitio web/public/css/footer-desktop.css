@@ -49,7 +49,6 @@
     display: flex;
     justify-content: flex-end;
     width: 20%;
-    bottom: 0;
   }
   .footer-desc {
     display: flex;

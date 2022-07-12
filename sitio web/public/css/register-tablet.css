@@ -8,22 +8,21 @@
 
   body {
     background-color: #87a6ab;
-    min-height: 100vh;
+    min-height: 90vh;
+    margin-top: 95px;
   }
 
   .container {
     position: relative;
     display: flex;
+    flex-direction: column;
   }
+
   form {
     padding-top: 50px;
+    min-height: 68vh;
   }
-  .banner {
-    width: 90%;
-    height: 75px;
-    background-color: whitesmoke;
-    margin: auto;
-  }
+
   input {
     padding: 10px 10px;
     border-radius: 5px;

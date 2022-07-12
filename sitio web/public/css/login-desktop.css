@@ -8,7 +8,8 @@
 
   body {
     background-color: #87a6ab;
-    min-height: 100vh;
+    min-height: 91vh;
+    margin-top: 95px;
   }
 
   .container {
@@ -18,13 +19,8 @@
   }
 
   form {
-    padding-top: 50px;
-  }
-  .banner {
-    width: 90%;
-    height: 75px;
-    background-color: whitesmoke;
-    margin: auto;
+    padding-top: 45px;
+    min-height: 74vh;
   }
 
   input {

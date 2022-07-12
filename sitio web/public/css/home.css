@@ -8,20 +8,20 @@
 
   body {
     background-color: #87a6ab;
-    height: 100vh;
+    min-height: 91vh;
+    margin-top: 0px;
+  }
+
+  main {
+    margin-top: 5px;
   }
 
   .container {
     position: relative;
-    min-height: 100vh;
     display: flex;
+    flex-direction: row;
   }
-  .banner {
-    width: 90%;
-    height: 75px;
-    background-color: whitesmoke;
-    margin: auto;
-  }
+
   .section-prd {
     display: flex;
     flex-direction: row;

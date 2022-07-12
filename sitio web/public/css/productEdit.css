@@ -6,13 +6,15 @@
     font-family: 'Calibri';
   }
 
-  main {
-    padding-top: 90px;
-    padding-bottom: 25px;
+  body {
+    background-color: #87a6ab;
+    min-height: 91vh;
+    margin-top: 95px;
   }
 
-  body {
-    background-color: #62909a;
+  .container {
+    position: relative;
+    display: flex;
   }
 
   .fields {

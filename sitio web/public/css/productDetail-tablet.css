@@ -1,201 +1,205 @@
-* {
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
-  font-family: 'Calibri';
-}
+@media only screen and (min-width: 761px) {
+  * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Calibri';
+  }
 
-main {
-  padding-top: 150px;
-}
+  body {
+    background-color: #87a6ab;
+    min-height: 91vh;
+    margin-top: 95px;
+  }
 
-.container {
-  display: flex;
-  flex-direction: row;
-}
+  .container {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+  }
 
-.estrellas {
-  display: flex;
-  width: 50%;
-  padding-left: 10px;
-}
+  .estrellas {
+    display: flex;
+    width: 50%;
+    padding-left: 10px;
+  }
 
-.estrella {
-  color: rgb(156, 156, 156);
-  font-size: 1.2em;
-  transition-property: color;
-  transition-duration: 00.5ms;
-  padding-right: 10px;
-}
-.estrella:hover {
-  color: gold;
-}
-.image {
-  display: flex;
-  justify-content: center;
-  width: 500px;
-  height: 500px;
-}
+  .estrella {
+    color: rgb(156, 156, 156);
+    font-size: 1.2em;
+    transition-property: color;
+    transition-duration: 00.5ms;
+    padding-right: 10px;
+  }
+  .estrella:hover {
+    color: gold;
+  }
+  .image {
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    height: 500px;
+  }
 
-.preview {
-  display: flex;
-  padding: 10px;
-  width: 100%;
-  height: 100%;
-  border-radius: 1.5rem;
-}
+  .preview {
+    display: flex;
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+    border-radius: 1.5rem;
+  }
 
-.producto {
-  display: flex;
-  width: 50%;
-  background-color: whitesmoke;
-  margin: 30px 30px;
-  transition: none;
-  border-radius: 1rem;
-  margin: auto;
-  padding: 20px 20px;
-}
+  .producto {
+    display: flex;
+    width: 50%;
+    background-color: whitesmoke;
+    margin: 30px 30px;
+    transition: none;
+    border-radius: 1rem;
+    margin: auto;
+    padding: 20px 20px;
+  }
 
-.description {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding: 10px 10px;
-  background-color: white;
-  border-radius: 1rem;
-}
+  .description {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 10px;
+    background-color: white;
+    border-radius: 1rem;
+  }
 
-.prd-name {
-  padding: 5px 5px;
-  font-size: 36px;
-  text-align: center;
-  font-style: italic;
-}
+  .prd-name {
+    padding: 5px 5px;
+    font-size: 36px;
+    text-align: center;
+    font-style: italic;
+  }
 
-.desc-short {
-  padding-top: 80px;
-  padding-left: 20px;
-  font-weight: bold;
-}
+  .desc-short {
+    padding-top: 80px;
+    padding-left: 20px;
+    font-weight: bold;
+  }
 
-.desc-large {
-  padding: 40px 20px;
-  text-align: justify;
-}
+  .desc-large {
+    padding: 40px 20px;
+    text-align: justify;
+  }
 
-.price {
-  font-weight: bold;
-}
+  .price {
+    font-weight: bold;
+  }
 
-.disc {
-  font-weight: bold;
-  color: #39b54a;
-}
+  .disc {
+    font-weight: bold;
+    color: #39b54a;
+  }
 
-.nav-buttons {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  width: 100%;
-  padding: 15px 15px;
-}
+  .nav-buttons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    padding: 15px 15px;
+  }
 
-.cart {
-  color: #39b54a;
-  width: 40%;
-  text-align: center;
-  padding: 5px 5px;
-  margin: 5px 10px;
-  border-radius: 1rem;
-  border: none;
-  font-weight: bold;
-  background-color: #7cc6b0;
-  color: white;
-}
+  .cart {
+    color: #39b54a;
+    width: 40%;
+    text-align: center;
+    padding: 5px 5px;
+    margin: 5px 10px;
+    border-radius: 1rem;
+    border: none;
+    font-weight: bold;
+    background-color: #7cc6b0;
+    color: white;
+  }
 
-.fa-heart {
-  color: red;
-  font-size: 30px;
-  width: 20%;
-  text-align: center;
-}
+  .fa-heart {
+    color: red;
+    font-size: 30px;
+    width: 20%;
+    text-align: center;
+  }
 
-.buy,
-.btn-edit,
-.btn-delete {
-  color: #39b54a;
-  width: 40%;
-  text-align: center;
-  padding: 5px 5px;
-  margin: 5px 10px;
-  border-radius: 1rem;
-  border: none;
-  font-weight: bold;
-  background-color: #7cc6b0;
-  color: white;
-}
+  .buy,
+  .btn-edit,
+  .btn-delete {
+    color: #39b54a;
+    width: 40%;
+    text-align: center;
+    padding: 5px 5px;
+    margin: 5px 10px;
+    border-radius: 1rem;
+    border: none;
+    font-weight: bold;
+    background-color: #7cc6b0;
+    color: white;
+  }
 
-.btn-edit {
-  position: absolute;
-  width: 90px;
-  top: 0;
-  right: 0;
-}
+  .btn-edit {
+    position: absolute;
+    width: 90px;
+    top: 0;
+    right: 0;
+  }
 
-.btn-delete {
-  position: absolute;
-  width: 90px;
-  top: 0;
-  right: 95px;
-  background-color: red;
-}
+  .btn-delete {
+    position: absolute;
+    width: 90px;
+    top: 0;
+    right: 95px;
+    background-color: red;
+  }
 
-a:visited {
-  color: white;
-}
+  a:visited {
+    color: white;
+  }
 
-.half-1 {
-}
+  .half-1 {
+  }
 
-.half-2 {
-  display: flex;
-  flex-direction: column;
-  position: relative;
-}
+  .half-2 {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
 
-.galeria {
-  display: flex;
-  width: 100%;
-  justify-content: space-evenly;
-  position: absolute;
-  bottom: 20px;
-}
+  .galeria {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    position: absolute;
+    bottom: 20px;
+  }
 
-.galeria-text {
-  display: flex;
-  width: 100%;
-  position: absolute;
-  bottom: 180px;
-  font-size: 18px;
-  padding-left: 20px;
-}
+  .galeria-text {
+    display: flex;
+    width: 100%;
+    position: absolute;
+    bottom: 180px;
+    font-size: 18px;
+    padding-left: 20px;
+  }
 
-.image-mini {
-  display: flex;
-  justify-content: center;
-  width: 150px;
-  height: 150px;
-}
+  .image-mini {
+    display: flex;
+    justify-content: center;
+    width: 150px;
+    height: 150px;
+  }
 
-.preview-mini {
-  display: flex;
-  padding: 10px;
-  width: 100%;
-  height: 100%;
-  border-radius: 1.5rem;
-}
+  .preview-mini {
+    display: flex;
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+    border-radius: 1.5rem;
+  }
 
-/* .producto:hover .description {
+  /* .producto:hover .description {
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -206,3 +210,4 @@ a:visited {
   background-color: whitesmoke;
   transform: none;
 } */
+}
