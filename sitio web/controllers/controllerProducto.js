@@ -31,8 +31,13 @@ const controllerProducto = {
 
   eliminarProducto: (req, res) => {
     let i = req.params.id;
-    productList.splice(i, 1);
-    res.redirect('/');
+    (productList[i].name = 'DELETED'),
+      (productList[i].price = 'DELETED'),
+      (productList[i].disc = 'DELETED'),
+      (productList[i].image = 'DELETED'),
+      (productList[i].descs = 'DELETED'),
+      (productList[i].descl = 'DELETED'),
+      res.redirect('/');
   },
 
   detalleProducto: (req, res) => {
