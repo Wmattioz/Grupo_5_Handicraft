@@ -26,7 +26,6 @@ const controllerLogin = {
     userLoggedIn.passwd = '';
 
     res.redirect('/');
-    res.send(userList);
   },
 };
 
