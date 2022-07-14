@@ -28,7 +28,7 @@ const productList = [
     image: 'PRD-Carruaje.jpg',
     descs: 'Figura de cristal hecha a mano en forma de carruaje navideño.',
     descl:
-      'Una decoracion muy fina con forma de carruaje navideño hecha a mano por HandiCraft, Ideal para la decoracion de hogar. Maravilloso accesorio para expositores de centro de mesa de comedor. Este seria un regalo perfecto para inauguración de la casa,Navidad y festejos familiares. Objeto decorativo. No es un juguete. No apropiado para niños menores de 15 años.',
+      'Una decoracion muy fina con forma de carruaje navideño hecha a mano por HandiCraft, Ideal para la decoracion de hogar. Maravilloso accesorio para expositores de centro de mesa de comedor. Este seria un regalo perfecto para inauguración de la casa, Navidad y festejos familiares. Objeto decorativo. No es un juguete. No apropiado para niños menores de 15 años.',
   },
   {
     id: 4,
@@ -68,7 +68,7 @@ const productList = [
     image: 'PRD-TorteraTallada.webp',
     descs: 'Tortera tallada.',
     descl:
-      'Vesti tu mesa von esta elegante tortera tallada hecha por HandiCraft. Ideal para presentar tus tortas, masas y mucho mas. Maravilloso regalo para cuando estas invitado a un acontecimiento y no sabes que llevar.',
+      'Vesti tu mesa con esta elegante tortera tallada hecha por HandiCraft. Ideal para presentar tus tortas, masas y mucho mas. Maravilloso regalo para cuando estas invitado a un acontecimiento y no sabes que llevar.',
   },
   {
     id: 8,
@@ -78,7 +78,7 @@ const productList = [
     image: 'PRD-FruteraTallada.webp',
     descs: 'Frutera tallada.',
     descl:
-      'Vesti tu mesa von esta elegante frutera tallada hecha por HandiCraft. Ideal para poner frutas en la mesa de manera delicada. Maravilloso regalo para cuando estas invitado a un acontecimiento y no sabes que llevar.',
+      'Vesti tu mesa con esta elegante frutera tallada hecha por HandiCraft. Ideal para poner frutas en la mesa de manera delicada. Maravilloso regalo para cuando estas invitado a un acontecimiento y no sabes que llevar.',
   },
 ];
 
