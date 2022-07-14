@@ -35,9 +35,11 @@ button:hover {
 .buttons {
   display: flex;
   justify-content: space-evenly;
-  padding: 50px 50px;
+  padding: 25px 50px;
   font-size: 14px;
   background-color: #87a6ab;
+  width: 60%;
+  margin: auto;
 }
 
 a.nav-back:link,
