@@ -12,9 +12,9 @@ const controllerHome = {
 
   buscarProducto: (req, res) => {
     let tempProduct = [];
-    let userQuery = req.query.buscar;
+    let userQuery = req.query.buscar.toLowerCase();
     for (i = 0; i < productList.length; i++) {
-      if (productList[i].name.includes(userQuery)) {
+      if (productList[i].name.toLowerCase().includes(userQuery)) {
         tempProduct.push(productList[i]);
       }
     }
