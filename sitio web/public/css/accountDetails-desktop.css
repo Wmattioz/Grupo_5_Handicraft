@@ -18,11 +18,7 @@
     flex-direction: column;
   }
 
-  form {
-    padding-top: 45px;
-  }
-
-  input {
+  .input-fields {
     padding: 10px 10px;
     border-radius: 5px;
     text-decoration: none;

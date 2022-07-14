@@ -105,6 +105,11 @@
   .nav-menu {
     display: none;
   }
+
+  .profile-name {
+    font-weight: bold;
+  }
+
   a:link {
     color: whitesmoke;
     text-decoration: none;
