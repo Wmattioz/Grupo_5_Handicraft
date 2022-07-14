@@ -9,6 +9,21 @@ const controllerHome = {
       userLoggedIn: userLoggedIn,
     });
   },
+
+  buscarProducto: (req, res) => {
+    let tempProduct = [];
+    let userQuery = req.query.buscar;
+    for (i = 0; i < productList.length; i++) {
+      if (productList[i].name.includes(userQuery)) {
+        tempProduct.push(productList[i]);
+      }
+    }
+    res.render('homeSearch', {
+      userLoggedIn: userLoggedIn,
+      productList: productList,
+      tempProduct: tempProduct,
+    });
+  },
 };
 
 module.exports = controllerHome;

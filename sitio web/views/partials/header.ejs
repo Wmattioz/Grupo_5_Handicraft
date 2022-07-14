@@ -9,14 +9,18 @@
       <a class="nav-button" href="/enConstruccion">Colecciones</a>
       <a class="nav-button" href="/enConstruccion">Noticias</a>
     </nav>
-    <nav class="nav-search">
-      <input
-        class="search-bar"
-        type="text"
-        placeholder="Buscar productos, marcas..."
-      />
-      <i class="fa-solid fa-magnifying-glass"></i>
-    </nav>
+    <div class="nav-search">
+      <form action="/buscar" method="GET">
+        <input
+          class="search-bar"
+          type="text"
+          name="buscar"
+          placeholder="Buscar productos, marcas..."
+        />
+        <input class="search-bar-submit" type="submit" value="&#128269" />
+      </form>
+     <!--  <i class="fa-solid fa-magnifying-glass"></i> -->
+    </div>
     <div class="nav-user-style">
       <nav class="nav-user">
         <% if(!userLoggedIn.user_name){ %>

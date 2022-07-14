@@ -18,12 +18,7 @@
     flex-direction: column;
   }
 
-  form {
-    padding-top: 50px;
-    min-height: 68vh;
-  }
-
-  input {
+  .input-fields {
     padding: 10px 10px;
     border-radius: 5px;
     text-decoration: none;

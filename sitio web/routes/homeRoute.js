@@ -4,4 +4,6 @@ const controllerHome = require('../controllers/controllerHome.js');
 
 router.get('/', controllerHome.mostrarHome);
 
+router.get('/buscar', controllerHome.buscarProducto);
+
 module.exports = router;
